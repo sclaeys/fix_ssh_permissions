@@ -1,11 +1,10 @@
-Here's a Bash script that will automatically update file and directory permissions to ensure key-based SSH authentication works properly. It adjusts permissions for:
+Here's a Bash script that will automatically update file and directory permissions to ensure [key-based SSH authentication](https://blog.radwebhosting.com/how-to-setup-ssh-login-with-public-key-authentication/) works properly. It adjusts permissions for:
 
 - The SSH directory (`~/.ssh/`)
 - The `authorized_keys` file
 - The user's home directory (if necessary)
 
 This script ensures that permissions are correctly set to prevent SSH from rejecting key-based authentication due to security concerns.
----
 
 ### **How to Use the Script**
 1. Login to your server's shell console.
@@ -22,3 +21,7 @@ This script ensures that permissions are correctly set to prevent SSH from rejec
 - Sets the correct ownership for all files in `~/.ssh/`.
 
 This setup ensures SSH authentication works properly while maintaining security best practices.
+
+Additional Resources:
+- [Bash Script to Automate Permissions Policy Requirements for Key-Based Authentication](https://radwebhosting.com/client_area/knowledgebase/517/Bash-Script-to-Automate-Permissions-Policy-Requirements-for-Key-Based-Authentication.html)
+- 
