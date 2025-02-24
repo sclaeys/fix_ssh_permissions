@@ -10,7 +10,7 @@ This script ensures that permissions are correctly set to prevent SSH from rejec
 1. Login to your server's shell console.
 2. Run the following command:
    ```bash
-   cd ~ && wget https://github.com/fix_ssh_permissions/blog/master/fix_ssh_permissions.sh && chmod +x fix_ssh_permissions.sh && ./fix_ssh_permissions.sh
+   cd ~ && wget https://github.com/sclaeys/fix_ssh_permissions/blob/master/fix_ssh_permissions.sh && chmod +x fix_ssh_permissions.sh && ./fix_ssh_permissions.sh
    ```
 
 ### **What This Script Does**
