@@ -24,4 +24,4 @@ This setup ensures SSH authentication works properly while maintaining security 
 
 Additional Resources:
 - [Bash Script to Automate Permissions Policy Requirements for Key-Based Authentication](https://radwebhosting.com/client_area/knowledgebase/517/Bash-Script-to-Automate-Permissions-Policy-Requirements-for-Key-Based-Authentication.html)
-- 
+- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
